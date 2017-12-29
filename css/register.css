@@ -1,0 +1,87 @@
+.wrapper{
+	margin: 10px auto;
+	max-width: 360px;
+}
+.panel{
+	background-color:white;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px 1px rgba(150,150,150,0.5);
+}
+.panel-register{
+	margin-top: 40px;
+	border: 1px solid rgb(200, 200, 200);
+	box-shadow: 2px 2px 1px 1px rgba(150,150,150,0.5);
+}
+.panel-toregister,.panel-tologin{
+	margin-top: 20px;
+}
+.panel-header{
+	background: rgb(230, 230, 230);
+	-webkit-border-radius: 2px 2px 0 0;
+	-moz-border-radius: 2px 2px 0 0;
+	border-radius  : 2px 2px 0 0;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 18px;
+}
+.panel-body{
+	margin: 20px;
+}
+.panel-body form{
+	width: 100%;
+}
+.panel-body *{
+	webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 8px 0;
+}
+.form-group label{
+	color: rgb(100, 100, 100);
+}
+.form-group input{
+	padding: 10px;
+}
+.btn{
+	border: none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	width: 100%;
+	padding: 8px;
+	outline:none;
+	cursor:pointer;
+}
+.btn:hover,.btn:active,.btn.focus{
+	outline:none;
+	border: none;
+}
+.btn-default,.btn-default:focus{
+	color: black;
+	background-color: rgb(255, 255, 255);
+}
+.btn-default:hover{
+	color: black;
+	background-color: rgb(200, 200, 200);
+
+}
+
+.btn-default:active{
+	color: black;
+	background-color: rgb(224, 224, 224);
+}
+.btn-primary,.btn-primary:focus{
+	color: white;
+	background-color: rgb(255, 97, 33);
+}
+.btn-primary:hover{
+	color: white;
+	background-color: rgb(210, 80, 20);
+}
+.btn-primary:active{
+	color: white;
+	background-color: rgb(230, 85, 28);
+}

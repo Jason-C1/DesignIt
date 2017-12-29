@@ -1,0 +1,96 @@
+img{
+    width:100%;
+}
+body{
+    background-color: rgba(240, 241, 242, 1);
+}
+a:hover, a:visited, a:link, a:active {
+    text-decoration:none;
+    color: #000;
+}
+.container{
+    display: block;
+    max-width:1080px;
+    margin: 0 auto;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+.left-inline{
+    display: inline-flex;
+    float: left;
+}
+.right-inline{
+    display: inline-flex;
+    float: right;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+/*header*/
+.header{
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    width: 100%;
+}
+.nav,.login{
+    line-height: 30px;
+    height: 60px;
+    text-align: center;
+}
+.login .item{
+    width: 70px;
+    margin: 15px 10px;
+}
+.nav .item{
+    margin: 15px 15px;
+    font-size: 16px;
+}
+.header  img.logo{
+    height: 62px;
+    width: auto;
+}
+.login .item{
+    background-color: rgb(255, 97, 33);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+/*body*/
+.banner{
+    padding: 60px 0 0 0;
+    position: relative;
+    z-index: -1;
+}
+.banner img{
+    width: 100%;
+    height: 50%;
+}
+.banner .warpper{
+    position: absolute;
+    top: 60px;
+    bottom: 3px;
+    width: 52%;
+    z-index:100;
+    background-color:rgba(0, 0, 0,0.6);
+}
+.banner .word{
+    position: absolute;
+    color: white;
+    width: 100%;
+    top: 50%;
+    z-index:100;
+    left: 10px;
+    font-size: 5vw;
+    font-family: 黑体;
+}
+
