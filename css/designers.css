@@ -1,0 +1,74 @@
+/*body*/
+.item-box .item{
+    webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+}
+.panel-gallery .item{
+    width: 100%;
+}
+.wrapper{
+    margin: 10px auto;
+    padding: 0 20px;
+    max-width: 1080px;
+}
+.panel{
+    margin: 10px;
+    background-color:white;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 1px 1px rgba(150,150,150,0.5);
+}
+.panel-sort{
+    padding: 10px;
+}
+.panel-sort .item{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.panel-sort .item:focus,.panel-sort .item:hover{
+    background-color:#f6f8f8;
+}
+.panel-sort .item.active{
+    background-color: rgb(255, 97, 33);
+    color: white;
+}
+.panel-sort .title{
+    padding: 6px 6px;
+    text-decoration: none;
+    color: black;
+}
+.project{
+    max-width:23%;
+    min-width: 100px;
+    margin: 8px;
+}
+.panel-design .body{
+    padding: 10px;
+    border-bottom: 1px solid #aaa;
+}
+.panel-design .footer{
+    padding: 10px;
+}
+.panel-design .panel-head img{
+    width: 50px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.panel-design .panel-head .username{
+    line-height: 50px;
+    vertical-align: top;
+    margin: 20px;
+}
+.panel-design .panel-head{
+    padding: 20px 20px 0 20px;
+}

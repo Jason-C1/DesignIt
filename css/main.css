@@ -6,7 +6,9 @@ body{
 }
 a:hover, a:visited, a:link, a:active {
     text-decoration:none;
-    color: #000;
+}
+.nav a:not(.active),.nav a:hover:not(.active), .nav a:visited:not(.active), .nav a:link:not(.active), .nav a:active:not(.active) {
+    color: black;
 }
 .container{
     display: block;
@@ -48,12 +50,17 @@ a:hover, a:visited, a:link, a:active {
     width: 70px;
     margin: 15px 10px;
 }
+.active{
+    color: white;
+    background-color: rgb(255, 97, 33);
+}
+
 .nav .item{
-    margin: 15px 15px;
+    padding: 15px 15px;
     font-size: 16px;
 }
 .header  img.logo{
-    height: 62px;
+    height: 60px;
     width: auto;
 }
 .login .item{
